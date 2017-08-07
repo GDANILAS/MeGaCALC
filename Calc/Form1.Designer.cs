@@ -70,6 +70,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -205,6 +206,7 @@
             this.button17.TabIndex = 13;
             this.button17.Text = "1";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -241,6 +243,7 @@
             this.button21.TabIndex = 17;
             this.button21.Text = "0";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // textBox1
             // 
